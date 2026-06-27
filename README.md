@@ -251,9 +251,12 @@ void loop()
   Serial.print("Alert Count  : ");
   Serial.println(alertCount);
   
+ 
+  
+  
   if (millis() - lastUpload >= uploadInterval)
-  {
-    Serial.println("Uploading to ThingSpeak...");
+    
+   { Serial.println("Uploading to ThingSpeak...");
 
     ThingSpeak.setField(1, waterLevel);
     ThingSpeak.setField(2, distance);
