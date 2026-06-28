@@ -120,7 +120,7 @@ The complete Arduino source code is available in the repository:
 
 
 ```
-]https://wokwi.com/projects/467895784163129345]
+https://wokwi.com/projects/467895784163129345
 ```
 
 ---
